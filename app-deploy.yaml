@@ -3,7 +3,7 @@ kind: AppsodyApplication
 metadata:
   creationTimestamp: null
   name: my-project
-  namespace: kabanero
+  namespace: dev-001
 spec:
   applicationImage: dev.local/my-project
   createKnativeService: false
