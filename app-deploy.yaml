@@ -2,7 +2,7 @@ apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   creationTimestamp: null
-  name: my-project
+  name: kabanero
   namespace: kabanero
 spec:
   applicationImage: dev.local/my-project
