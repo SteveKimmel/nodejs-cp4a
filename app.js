@@ -5,8 +5,8 @@ module.exports = (/*options*/) => {
 
   app.get('/', (req, res) => {
     // Use req.log (a `pino` instance) to log JSON:
-    req.log.info({message: 'Hello from Appsody last gasp on Friday'});
-    res.send('Hello from Appsody last gasp on Friday');
+    req.log.info({message: 'Hello from Appsody on Wednesday'});
+    res.send('Hello from Appsody on Wednesday');
   });
 
   return app;
