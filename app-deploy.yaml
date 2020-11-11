@@ -6,7 +6,7 @@ metadata:
   namespace: kabanero
 spec:
   applicationImage: dev.local/my-project
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
